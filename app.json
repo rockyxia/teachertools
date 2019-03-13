@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/my/my",
+    "pages/rmbCapital/rmbCapital",
+    "pages/phoneNumber/phoneNumber"
+  ],
+  "window": {
+    "defaultTitle": "教师工具箱",
+    "titleBarColor": "#42b983"
+  },
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "#42b983",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "name": "首页",
+        "pagePath": "pages/index/index",
+        "icon": "/images/icon-home.png",
+        "activeIcon": "/images/icon-home-h.png"
+      },
+      {
+        "name": "我的",
+        "pagePath": "pages/my/my",
+        "icon": "/images/icon-my.png",
+        "activeIcon": "/images/icon-my-h.png"
+      }
+    ]
+  }
+}

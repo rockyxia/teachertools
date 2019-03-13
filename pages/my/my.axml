@@ -1,0 +1,19 @@
+<view class="container">
+  
+  <!-- 用户 信息 -->
+  <view class="userinfo">
+    <button 
+      class="userinfo-avatar"
+      style="background-image: url({{avatar}})"
+    ></button>
+    <view
+      bindgetuserinfo="onGetUserInfo">
+      <view class='username'>{{nickName}}，你好！</view>
+    </view>
+  </view>
+
+  <view class="intro">
+     <text>实用的教师工具箱，学校导航，图转文字，文字转语音，翻译，日历，二维码相关日常等等，持续更新中...</text>
+  </view>
+
+</view>
